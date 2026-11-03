@@ -1,14 +1,19 @@
-# Lesloy Universe — Vercel website
+# Lesloy Universe — Vercel v2
 
-Dit is een statische website die direct op Vercel kan worden gepubliceerd.
+## Wat is verbeterd?
+- Afbeeldingen zitten echt in `assets/` in deze projectmap.
+- Alle verwijzingen zijn relatief (`./assets/...`) zodat ze ook onder een Vercel-projectsubpad goed werken.
+- De personagekaarten gebruiken de zes originele foto's.
+- De tien hoofdstukken zijn uitgebreid met scènes, dialogen, actie en cliffhangers.
+- Responsive ontwerp voor desktop en mobiel.
 
-## Publiceren via Vercel
-1. Pak `lesloy-vercel.zip` uit.
-2. Zet de map `lesloy-vercel` in een GitHub-repository (of upload de map via een ondersteunde Vercel-workflow).
-3. Ga naar https://vercel.com/new en importeer de repository.
-4. Framework Preset: Other.
-5. Build Command: leeg laten.
-6. Output Directory: `.` (de projectroot).
-7. Klik op Deploy.
+## Deploy op Vercel
+1. Pak deze ZIP uit.
+2. Upload de volledige inhoud van deze map naar de root van een GitHub-repository.
+3. Importeer de repository via https://vercel.com/new.
+4. Kies Framework Preset: Other.
+5. Build Command: leeg.
+6. Output Directory: `.`.
+7. Deploy.
 
-Geen buildstap of npm-installatie nodig. De originele foto's en illustraties staan in `assets/`.
+BELANGRIJK: upload de volledige map, inclusief `assets`, `index.html`, `styles.css`, `script.js` en `content.js`. Alleen `index.html` uploaden is niet genoeg.
